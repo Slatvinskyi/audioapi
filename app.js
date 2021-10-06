@@ -7,8 +7,9 @@ osc.connect(ctx.destination);
 
 //osc.frequency.value = 220;
 
+
 playit.onclick = function() {
-    osc.start();
+   osc.start();
 }
 
 stopit.onclick = function() {
